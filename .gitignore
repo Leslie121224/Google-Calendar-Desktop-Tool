@@ -1,0 +1,55 @@
+# 🛑 忽略 Visual Studio & .NET 產生的檔案
+.vs/
+*.suo
+*.user
+*.cache
+*.dbmdl
+*.log
+*.tlog
+*.pdb
+*.sln.docstates
+
+# 🛑 忽略 bin & obj (編譯後的檔案)
+bin/
+obj/
+[Bb]uild/
+[Ll]ogs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+ARM/
+ARM64/
+
+# 🛑 忽略 NuGet 產生的檔案
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.assets.json
+.nuget/
+*.dll
+*.exe
+
+# 🛑 忽略 Google API 憑證 (私密資訊)
+credentials.json
+token.json
+
+# 🛑 忽略設定檔案 (避免影響其他開發者)
+appsettings.json
+appsettings.*.json
+*.config
+*.csproj.user
+*.db
+*.sqlite
+
+# 🛑 忽略 Rider & VS Code 產生的設定
+.idea/
+.vscode/
+*.code-workspace
+*.suo
+
+# 🛑 忽略 MacOS & Linux 相關的檔案
+.DS_Store
+*.swp
+*.bak
